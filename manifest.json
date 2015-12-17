@@ -4,9 +4,11 @@
     "name": "Which host",
     "description": "show the IP of matched hostnames",
     "version": "0.1",
+    "author": "loveky",
 
     "icons": {
-        "48": "icon.png"
+        "48": "icon.png",
+        "128": "icon128.png"
     },
 
     "browser_action": {
@@ -31,5 +33,7 @@
         "webRequest",
         "tabs",
         "*://*/"
-    ]
+    ],
+
+    "homepage_url": "https://github.com/loveky/which_host"
 }
